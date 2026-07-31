@@ -1,0 +1,9 @@
+function	provenance	current_source	current_header	original_source	original_header	linux	macos	freebsd
+p101_arc4random	common-Unix	libraries/lib_random/src/unix/stdlib.c	libraries/lib_random/include/p101_random/random.h	libraries/lib_unix/src/stdlib.c	libraries/lib_unix/include/p101_unix/p101_stdlib.h	yes	yes	yes
+p101_arc4random_buf	common-Unix	libraries/lib_random/src/unix/stdlib.c	libraries/lib_random/include/p101_random/random.h	libraries/lib_unix/src/stdlib.c	libraries/lib_unix/include/p101_unix/p101_stdlib.h	yes	yes	yes
+p101_arc4random_uniform	common-Unix	libraries/lib_random/src/unix/stdlib.c	libraries/lib_random/include/p101_random/random.h	libraries/lib_unix/src/stdlib.c	libraries/lib_unix/include/p101_unix/p101_stdlib.h	yes	yes	yes
+p101_initstate	XSI	libraries/lib_random/src/posix_xsi/stdlib.c	libraries/lib_random/include/p101_random/random.h	libraries/lib_posix_xsi/src/stdlib.c	libraries/lib_posix_xsi/include/p101_posix_xsi/p101_stdlib.h	yes	yes	yes
+p101_seed48	XSI	libraries/lib_random/src/posix_xsi/stdlib.c	libraries/lib_random/include/p101_random/random.h	libraries/lib_posix_xsi/src/stdlib.c	libraries/lib_posix_xsi/include/p101_posix_xsi/p101_stdlib.h	yes	yes	yes
+p101_setstate	XSI	libraries/lib_random/src/posix_xsi/stdlib.c	libraries/lib_random/include/p101_random/random.h	libraries/lib_posix_xsi/src/stdlib.c	libraries/lib_posix_xsi/include/p101_posix_xsi/p101_stdlib.h	yes	yes	yes
+p101_srand48	XSI	libraries/lib_random/src/posix_xsi/stdlib.c	libraries/lib_random/include/p101_random/random.h	libraries/lib_posix_xsi/src/stdlib.c	libraries/lib_posix_xsi/include/p101_posix_xsi/p101_stdlib.h	yes	yes	yes
+p101_srandom	XSI	libraries/lib_random/src/posix_xsi/stdlib.c	libraries/lib_random/include/p101_random/random.h	libraries/lib_posix_xsi/src/stdlib.c	libraries/lib_posix_xsi/include/p101_posix_xsi/p101_stdlib.h	yes	yes	yes

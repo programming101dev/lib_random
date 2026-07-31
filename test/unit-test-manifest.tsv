@@ -1,0 +1,9 @@
+function	test_kind	test_source
+p101_initstate	fault	test/test_fault_wrappers.c
+p101_setstate	fault	test/test_fault_wrappers.c
+p101_arc4random	behavior	test/test_behavior.c
+p101_arc4random_buf	behavior	test/test_behavior.c
+p101_arc4random_uniform	behavior	test/test_behavior.c
+p101_seed48	behavior	test/test_behavior.c
+p101_srand48	behavior	test/test_behavior.c
+p101_srandom	behavior	test/test_behavior.c
