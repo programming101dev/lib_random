@@ -9,7 +9,7 @@ char *p101_initstate(const struct p101_env *env, struct p101_error *err, unsigne
     char *ret_val;
 
     P101_TRACE(env);
-    P101_WRAPPER_FAULT_RETURN(env, err, NULL);
+    P101_WRAPPER_FAULT_RETURN(env, err, ret_val, NULL);
     errno   = 0;
     ret_val = initstate(seed, state, size);
 
@@ -25,7 +25,7 @@ char *p101_initstate(const struct p101_env *env, struct p101_error *err, unsigne
         }
     }
 
-    P101_TRACE_EXIT(env);
+    P101_WRAPPER_DONE(env);
     return ret_val;
 }
 
@@ -46,7 +46,7 @@ char *p101_setstate(const struct p101_env *env, struct p101_error *err, char *st
     char *ret_val;
 
     P101_TRACE(env);
-    P101_WRAPPER_FAULT_RETURN(env, err, NULL);
+    P101_WRAPPER_FAULT_RETURN(env, err, ret_val, NULL);
     errno   = 0;
     ret_val = setstate(state);
 
@@ -62,7 +62,7 @@ char *p101_setstate(const struct p101_env *env, struct p101_error *err, char *st
         }
     }
 
-    P101_TRACE_EXIT(env);
+    P101_WRAPPER_DONE(env);
     return ret_val;
 }
 
