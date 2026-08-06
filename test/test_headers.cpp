@@ -1,4 +1,4 @@
-#include <p101_random/random.h>
+#include <p101_random/p101_stdlib.h>
 
 int main()
 {

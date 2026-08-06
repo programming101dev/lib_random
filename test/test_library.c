@@ -1,6 +1,6 @@
 #include <p101_env/env.h>
 #include <p101_error/error.h>
-#include <p101_random/random.h>
+#include <p101_random/p101_stdlib.h>
 #include <stdlib.h>
 
 int main(void)

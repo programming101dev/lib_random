@@ -19,10 +19,10 @@ set(BSD_STANDARD_FLAGS -D_BSD_SOURCE -D__BSD_VISIBLE)
 
 set(LIBRARY_TARGETS p101_random)
 set(p101_random_SOURCES
-        src/random.c
+        src/stdlib.c
 )
 set(p101_random_HEADERS
-        include/p101_random/random.h
+        include/p101_random/p101_stdlib.h
 )
 set(p101_random_LINK_LIBRARIES
         p101_error
