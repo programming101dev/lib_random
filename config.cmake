@@ -19,8 +19,7 @@ set(BSD_STANDARD_FLAGS -D_BSD_SOURCE -D__BSD_VISIBLE)
 
 set(LIBRARY_TARGETS p101_random)
 set(p101_random_SOURCES
-        src/posix_xsi/stdlib.c
-        src/unix/stdlib.c
+        src/random.c
 )
 set(p101_random_HEADERS
         include/p101_random/random.h
