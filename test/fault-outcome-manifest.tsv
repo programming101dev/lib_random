@@ -1,0 +1,3 @@
+function	function_usr	domain	symbol_header	linux_faults	macos_faults	freebsd_faults	posix_faults	linux_conditional	macos_conditional	freebsd_conditional
+p101_initstate	c:@F@p101_initstate	errno	errno.h	EINVAL	EIO	EIO	EIO			
+p101_setstate	c:@F@p101_setstate	errno	errno.h	EINVAL	EIO	EIO	EIO			
